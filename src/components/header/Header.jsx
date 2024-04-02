@@ -24,9 +24,7 @@ const Header = () => {
                   <strong className="main-name"> Ravi</strong>
                 </h2>
               </div>
-              <div
-                style={{ fontSize: "40px", color: "var(--color-bg-variant)" }}
-              >
+              <div style={{ fontSize: "40px", color: "blue" }}>
                 <Typewriter
                   options={{
                     strings: [
@@ -41,7 +39,7 @@ const Header = () => {
                   }}
                 />
               </div>
-              <div >
+              <div className="mt-2">
                 <HeaderSocials />
               </div>
             </div>
