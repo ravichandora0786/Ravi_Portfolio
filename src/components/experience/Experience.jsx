@@ -109,18 +109,16 @@ const Experience = () => {
             <h3>My Skills</h3>
           </div>
           <div className="progress-row2">
-            <div className="lang">
-              <AliceCarousel
-                infinite
-                autoPlay
-                disableButtonsControls
-                disableDotsControls
-                mouseTracking
-                autoPlayInterval={1000}
-                items={items}
-                responsive={responsive}
-              />
-            </div>
+            <AliceCarousel
+              infinite
+              autoPlay
+              disableButtonsControls
+              disableDotsControls
+              mouseTracking
+              autoPlayInterval={1000}
+              items={items}
+              responsive={responsive}
+            />
           </div>
         </div>
       </section>

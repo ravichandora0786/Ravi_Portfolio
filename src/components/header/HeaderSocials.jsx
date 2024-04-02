@@ -11,7 +11,7 @@ const HeaderSocials = () => {
         <a
           href="https://www.linkedin.com/in/web-developer-ravi-82419a272"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -20,7 +20,7 @@ const HeaderSocials = () => {
         <a
           href="https://github.com/ravichandora0786"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <FaGithub />
         </a>
@@ -29,7 +29,7 @@ const HeaderSocials = () => {
         <a
           href="https://www.instagram.com/_official.ravi"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <RiInstagramFill
             style={{
@@ -39,7 +39,11 @@ const HeaderSocials = () => {
         </a>
       </div>
       <div className="ms-3">
-        <a href="https://t.me/ravi_chandora" target="_blank" rel="noreferrer">
+        <a
+          href="https://t.me/ravi_chandora"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiTelegram
             style={{
               fontSize: "30px",

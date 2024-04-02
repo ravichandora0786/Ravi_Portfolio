@@ -79,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 
   .progress-title {
@@ -183,6 +183,10 @@
     }
     .progress-title h3 {
       font-size: 2rem;
+    }
+
+    .progress-row2  {
+      padding-left: 100px;
     }
   }
   

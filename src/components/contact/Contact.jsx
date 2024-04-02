@@ -50,7 +50,12 @@ const Contact = () => {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1725.3899467100148!2d74.20225963136197!3d30.12911120639409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3917a79154f86721%3A0x4ce09ae52bb2fd93!2sAbohar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1691469433525!5m2!1sen!2sin"
                 frameborder={0}
-                style={{ border: "0", width: "100%", height: "200px" }}
+                style={{
+                  border: "0",
+                  width: "100%",
+                  height: "320px",
+                  borderRadius: "1.2rem",
+                }}
                 allowfullscreen
               ></iframe>
             </div>

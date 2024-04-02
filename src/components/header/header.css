@@ -8,13 +8,15 @@ header {
 }
 
 .header__socials a {
-  font-size: 25px; /* Adjust the size as needed */
+  font-size: 25px; 
 }
 
 .header__container {
   /* border: 2px solid red; */
   height: 80%;
-  margin-top: 10%;
+  max-width: 100%; 
+  padding: 0 20px; 
+  margin: 10% auto;
 }
 
 .header__row2 {
@@ -23,6 +25,7 @@ header {
 .header_col1 {
   padding-left: 200px;
   height: 48vh;
+  width: 50%;
 }
 
 .header_image {
@@ -79,6 +82,7 @@ header {
   .header_col1 {
     padding: 0px;
     text-align: center;
+    width: 100%;
 
   }
   .header__socials {
