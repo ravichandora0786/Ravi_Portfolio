@@ -3,8 +3,7 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Ravi1.jpg'
-
+import img from "../../assets/Ravi.jpg";
 
 const Intro = () => {
   return (
@@ -34,20 +33,27 @@ const Intro = () => {
             1 years experienced Full Stack Developer with hands-on experience in
             identifying web-based user interactions along with designing and
             implementing highly-responsive user interface components by
-            deploying React concepts. I am an ambitious and dedicated individual with a passion for technology and a
-            strong desire to excel in the corporate world. I strive to take on challenging positions where I can contribute my skills, diligence,
-            and dedication to the success of the organization. With a Bachelor's degree in Computer Science and
-            currently pursuing a Master's in Computer Application, I have a solid educational foundation and a thirst
-            for knowledge.
+            deploying React concepts. I am an ambitious and dedicated individual
+            with a passion for technology and a strong desire to excel in the
+            corporate world. I strive to take on challenging positions where I
+            can contribute my skills, diligence, and dedication to the success
+            of the organization. With a Bachelor's degree in Computer Science
+            and currently pursuing a Master's in Computer Application, I have a
+            solid educational foundation and a thirst for knowledge.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
       </div>
-      <hr style={{height:"1px",backgroundColor:"lightskyblue",marginTop:"50px"}} />
+      <hr
+        style={{
+          height: "1px",
+          backgroundColor: "lightskyblue",
+          marginTop: "50px",
+        }}
+      />
     </section>
-
   );
 };
 
